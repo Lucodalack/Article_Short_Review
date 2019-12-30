@@ -1,0 +1,13 @@
+Today article:
+https://blog.pragmaticengineer.com/the-product-minded-engineer
+
+What is a product minded engineer?
+1st you r a engineer, obviously 
+2nd beside the technical matter, you care a lot about the product, how the product will goes, how the user experience, you care not about how good the code you write but how effective this feature will delivered. That's is product minded engineer
+
+Am I a product minded engineer?
+Yes I think I am but I think I have a lot of things to improve myself in a product minded way
+
+1st I have to improve my communicate skills, sometime I can't keep my temper and not control the conversation, I have to be better if I want people listen to me
+2nd edges case handle, I still miss kinda lots of edges case, should be more careful
+3rd product - technical trade off, I need to improve more about technical to could give more idea, solutions in trade off
