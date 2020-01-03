@@ -1,0 +1,11 @@
+Article link https://medium.com/cantors-paradise/paul-samuelsons-three-flavors-of-randomness-86c82eaf767a
+
+I'm really like this article
+The main topic is about randomness and the happenable of a independent event
+A independent event is a event that happen without any relevant with the past result
+So we can't predict the next result by analyst the old data
+
+There 3 case of a prediction:
+White noise: the true randomness - we have no idea about what'll happen next because this is a independent event and unpredictable 
+Red noise: pessimistic side - the thing happen frequently more than normal will happen less frequently in the future 
+Blue noise: optimistic side - the thing happen frequently in the past will keep happen in that way and event more
