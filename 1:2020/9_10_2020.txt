@@ -1,0 +1,10 @@
+https://medium.com/better-programming/faster-array-operations-with-collectionofone-in-swift-fd717a346fb5
+
+Today article is about collectionForOne
+I usually see thing like
+A += [b]
+But it's really bad with me, why we just not use append
+But in this case we could use CollectonforOne instead, this have a better performance than operator but still worse than append
+So it's not a best use case
+But it's is a really good option for some func require a param as a collection
+TIL
