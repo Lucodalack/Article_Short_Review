@@ -1,0 +1,7 @@
+https://medium.com/flawless-app-stories/modular-architecture-in-ios-dependencies-1cf9b563aa1d
+
+Today article is modular architecture:
+Actually I don't see this article is a good one, kinda bored.
+But I've leant st from it:
+Use full code without storyboard, nib give us some advantages like not duplicate asset, easy to modular code
+And modular code is always trade off
