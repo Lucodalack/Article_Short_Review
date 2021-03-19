@@ -1,0 +1,4 @@
+https://medium.com/swlh/when-to-write-self-in-swift-d1f4af1f7a85
+
+Just use self if it require by system
+Or intent to distint self property

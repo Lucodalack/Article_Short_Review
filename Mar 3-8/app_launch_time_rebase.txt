@@ -1,0 +1,13 @@
+https://medium.com/codestory/why-swift-reference-types-are-bad-for-app-startup-time-90fbb25237fc
+
+There r many factors in optimize launch times.
+
+In a part of launch time: . Dyld is Apple’s program responsible for getting an app ready to use. It runs in the same process as the code you write and starts by loading all dependent frameworks¹, including any system frameworks.
+
+Part of dyld’s job is “rebasing” pointers in binary metadata that describe types in your source code
+
+ObjC code has a lot of metadata need to rebase. Swift class also has objc meta data too.
+Value type don't have objc meta data -> decrease rebase time but increase file size.
+
+=> Pick type wisely, value type or class type.
+Avoid create many type.

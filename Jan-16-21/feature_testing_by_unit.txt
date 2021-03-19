@@ -1,0 +1,8 @@
+https://masilotti.com/testing-ui-without-ui-testing
+Usually we use ui test for feature testing. But we could also use XCTest for feature test.
+ST we need to use.
+Sending a ui event by: controller.toggleTextButton.sendActions(for: .touchUpInside)
+Need to load view: loadViewIfNeeded()
+Test vc push: check navigation.viewcontrollers
+
+But with my opinion this way is not good, we should use a UITest for fully control the feature test and could build a auto-test for init

@@ -1,0 +1,11 @@
+Link https://yonivav.medium.com/clean-swift-explanation-templates-3cade3d5e0ad
+
+Clean swift technically is Viper.
+It has View, interactor, presenter, and Router
+In my view it kinda similar with my mvvm +. Data mapper.
+Interact provide business model
+Presenter receive business model -> ViewModel (UI model) 
+View receive the viewModel and show ui
+
+
+

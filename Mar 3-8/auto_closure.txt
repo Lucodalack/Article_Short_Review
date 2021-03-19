@@ -1,0 +1,17 @@
+https://medium.com/codex/swift-demystifying-autoclosures-dc106e4bc04a
+@autoclosure will take arguments wrap in a closure
+
+Exp:
+func I_will(_ perform_action: @autoclosure () -> Void) {
+    perform_action()
+}
+I_will(print("Hello, world"))
+
+In this case auto closure will wrap the function called into a closure.
+
+Why do we need this?
+Closure might not be called in some context and it will optimize the resource.
+Exp:
+Assert func take argument as a autoClosure.
+
+Why does nt it just take an bool arg, cuz in release mode assert will not be called, so the closure will not be called and and system don't have to be calculate the result of this bool

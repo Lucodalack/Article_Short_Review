@@ -1,0 +1,31 @@
+https://github.com/Quick/Quick/blob/master/Documentation/en-us/ArrangeActAssert.md
+
+A test function represent for a testacy -> don't use just 1 test function for 1 logic function
+Need to break test case in to function
+Test function name need to show test case mean
+
+Example
+class OfferTests: XCTestCase {
+  func testOffer_whenTheBananaIsPeeled_offersTheBanana() {
+    // Arrange: Create a banana and peel it.
+    let banana = Banana()
+    banana.peel()
+
+    // Act: Create the string used to offer the banana.
+    let message = offer(banana)
+
+    // Assert: Verify it's the right string.
+    XCTAssertEqual(message, "Hey, want a banana?")
+  }
+
+  func testOffer_whenTheBananaIsntPeeled_offersToPeelTheBanana() {
+    // Arrange: Create a banana.
+    let banana = Banana()
+
+    // Act: Create the string used to offer the banana.
+    let message = offer(banana)
+
+    // Assert: Verify it's the right string.
+    XCTAssertEqual(message, "Hey, want me to peel this banana for you?")
+  }
+}

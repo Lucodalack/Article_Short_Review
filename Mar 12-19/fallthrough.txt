@@ -1,0 +1,3 @@
+https://medium.com/geekculture/swift-5-fallthrough-used-cases-you-must-know-c31a135c7c08
+Sum:
+Swift switch case only execute 1 matched case. Use fall through to execute next case

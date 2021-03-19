@@ -1,0 +1,13 @@
+ObjectIdentifier is a unique Id of a object type.
+ObjectIdentifier confirm Hashable and Equatable
+Init
+
+class Foo {
+    let val: Int
+}
+let fooA = Foo(1)
+let identifierA = ObjectIdentifier(fooA)
+
+Usage: could declare st like that:
+Let dict: [ObjectIdentifier: String]...
+https://medium.com/better-programming/understanding-swifts-objectidentifier-a62e85b2c9a1

@@ -1,0 +1,10 @@
+https://qvik.com/news/async-await-in-swift-rethinking-callbacks-and-escaping-the-pyramid-of-doom
+
+Async and await in swift
+
+Alternative func with callback.
+
+Async func need to be call with await or in async func (similar with try, throw)
+Async, await has some concept similar with coroutine in android
+
+Still not released yet

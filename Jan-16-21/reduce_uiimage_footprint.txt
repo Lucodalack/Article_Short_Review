@@ -1,0 +1,11 @@
+https://swiftsenpai.com/development/reduce-uiimage-memory-footprint/?utm_campaign=AppCoda%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
+
+Note:
+When show an UIImage, the memory usage != file_size. The memory usage reflected with the image dimension. Example
+A sample image has 3648px × 5472px has:
+(3648 * 5472) * 4 bytes ≈ 80MB .
+
+Reduce mem: resize a UIImage won't help cz resize a UIImage is expensive and it's also require the image is loaded.
+We need to Downsampling image use ImageIO.
+Use function CGImageSourceCreateThumbnailAtIndex to downsampling image to a specific scale.
+Focus on flag option, more detail in this link

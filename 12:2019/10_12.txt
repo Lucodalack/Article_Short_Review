@@ -1,8 +1,0 @@
-2nd article
-Ref: https://itnext.io/dynamic-programming-vs-divide-and-conquer-2fea680becbe
-Dynamic programing and Divide and conquer 
-
-Summary:
-Dynamic programing is a kind of Divide and conquer, but have some special condition:
-Can break in to sub-problem, and sub-problem must be overlaps each other and have optimal substructure
-Dynamic programing has 2 way to implement: top-down (memorization) and bottom-up tabulation 

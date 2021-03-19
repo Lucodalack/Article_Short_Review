@@ -1,0 +1,29 @@
+In iOS we have NIL and NSNULL.
+
+In that case: nil is totally nothingness
+And NSNull is a object represent for nil.
+
+So when you write something like that in ObjC:
+[a doSomeThing];
+If a is nil, the program still fine, application will keep move on.
+But if a is NSNull (may be the result of the wrong type cast). The application will crash
+Cz an object need to respond to selector which sent by message to it.
+So nil will be fine, but NSNull literally a object so the application will fall.
+
+In json:
+["haha":null]
+After we parse this json to dict:
+We will have: Dictionary *dict = parse(...)
+String a = dict["a"]
+String haha = dict["haha"]
+print(a)
+print(haha
+The result will be:
+In ObjctiveC:
+(null) // it is nil
+<null> // it is NSNull
+In Swift:
+Nil
+Optional(nil)
+
+In swift NSNull will be bridge to optional.none

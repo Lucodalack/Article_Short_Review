@@ -1,0 +1,15 @@
+https://www.jessesquires.com/blog/2020/12/22/swift-self-executing-anonymous-closures/?utm_campaign=AppCoda%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
+In class, when use property initializer by closure.
+In this closure, self is not the object instant but have another type. Be aware.
+class MyTableCell: UITableViewCell {
+let button: UIButton = {
+        let button = UIButton()
+        button.setTitle("Title", for: .normal)
+        button.addTarget(self, action: #selector(didTapButton(_:)), for: .touchUpInside)
+        return button
+    }()
+}
+This code won't work, the button event click will not fired when user click on button. Cz the self when add target in closure is not tableViewCell.
+Why? 
+In swift self will be initialize when all its property initial. So in the time button initial, self has not created yet. And self in this close sure have type: (MyTableCell) -> () -> MyTableCell, a reflect of -[NSObject self]
+

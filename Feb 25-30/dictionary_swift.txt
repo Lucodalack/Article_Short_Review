@@ -1,0 +1,7 @@
+Dictionary in swift:
+Dictionary in swift is hash map.
+Dict.keys will return a randomly order key, it not guaranteed	about order.
+
+KeyValuePairs: a type has the same interface with dictionary, but it's NOT hash map, so it won't guarantee unique key-value and bad performance
+
+https://www.andyibanez.com/posts/understanding-basic-data-structures-dictionaries-in-depth/?utm_campaign=AppCoda%20Weekly&utm_medium=email&utm_source=Revue%20newsletter

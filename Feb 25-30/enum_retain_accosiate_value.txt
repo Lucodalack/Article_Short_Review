@@ -1,0 +1,3 @@
+https://sarunw.com/posts/does-enum-retained-its-associated-value
+Enum hold a strong ref on it's associated value
+=> it's able to circle ref on a enum with its associate value
